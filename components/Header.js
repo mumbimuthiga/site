@@ -14,36 +14,7 @@ const Header = () => {
   return (
     <div className={headerStyles.header}>
        
-         <Carousel className={headerStyles.carousel}>
-                  <div className={headerStyles.image}>
-                  <Image  src={about} 
-                    alt="GFG logo imported from public directory" />
-                 </div>
-                  <div>
-                  <Image src={Students} 
-                    alt="GFG logo imported from public directory" />
-                    
-  
-                  </div>
-                  <div>
-                  <Image src={site} 
-                    alt="GFG logo imported from public directory" />
-                     
-  
-                  </div>
-                  <div>
-                  <Image src={uni} 
-                    alt="GFG logo imported from public directory" />
-                     
-  
-                  </div>
-                  <div>
-                  <Image src={school} 
-                    alt="GFG logo imported from public directory" />
-                     
-  
-                  </div>
-              </Carousel>
+       <p classname={headerStyles.tag}>`Here`</p>   
         
     </div>
   )
