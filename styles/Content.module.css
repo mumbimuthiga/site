@@ -1,0 +1,33 @@
+/* Create two equal columns that floats next to each other */
+.column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column h2{
+    color:#fdbe33;
+    font-weight: 20px;
+  }
+  .column p{
+    font-size: 16px;
+}
+.column button{
+position: relative;
+margin-top: 15px;
+padding: 15px 35px;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: 1px;
+color: #ffffff;
+border-radius: 0;
+background: #2e3786;
+transition: .3s;
+  }

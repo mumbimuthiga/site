@@ -1,0 +1,48 @@
+/* Create two equal columns that floats next to each other */
+.columnbelow {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 200px; 
+    color: #ffffff;
+    background: #2e3786;
+  }
+  .facts{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 200px; 
+    color: #ffffff;
+    background: #030f27;
+  }
+  .rowbelow{
+    width: 100%;
+  }
+
+  
+  /* Clear floats after the columns */
+ .rowbelow:after{
+    content: "";
+    display: table;
+    clear: both;
+  
+  }
+  .facts h3{
+    color:#fdbe33;
+    font-weight: 20px;
+  }
+  .facts h4{
+    color:#ffffff;
+    font-weight: 15px;
+  }
+  .columnbelow h3{
+    color:#fdbe33;
+    font-weight: 20px;
+  }
+  .columnbelow h4{
+    color:#ffffff;
+    font-weight: 15px;
+  }
+  .column p{
+    font-size: 16px;
+}

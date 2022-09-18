@@ -1,0 +1,19 @@
+.main {
+    height: 50px;
+    padding: 10px;
+    background: #0047AB;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  
+  .main p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+  }
+  
+  

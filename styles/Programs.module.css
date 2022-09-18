@@ -1,0 +1,19 @@
+.row h1{
+    color:#fdbe33;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.column{
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .images:after{
+    content: "";
+    display: table;
+    clear: both;
+  }

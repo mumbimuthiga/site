@@ -1,0 +1,35 @@
+.row{
+    height: 300px;
+    padding: 20px;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    background: green;
+    justify-content: flex-start;
+}
+.row_main{
+    padding: 30px;
+    margin: 10px 15px;
+    width: 30%;
+
+
+}
+.row_main ul{
+ 
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+  
+.row_main ul li a {
+    margin: 2px 5px;
+  }
+  .row_main h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 30px;
+  }
+
+

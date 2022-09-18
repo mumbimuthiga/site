@@ -1,0 +1,38 @@
+.row{
+    height: 400px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.text{
+    display: block;
+   
+}
+.text h3{
+    font-weight: bolder;
+    font-size: larger;
+    align-items: center;
+    margin: 5px 15px;
+    text-align: center;
+   
+    
+}
+.text h4{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text p{
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40%;
+
+
+}
+.images{
+   
+}
