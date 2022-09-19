@@ -1,17 +1,8 @@
 
 .header{
-    height: 100vh;
+    height:100vh;
     position: relative;
-    background-size:contain;
-    background-image: url("../public/header.jpg");
+    background-size:cover;
+    background-image: url("https://www.zetech.ac.ke/wp-content/uploads/bfi_thumb/Zetech-Sparks-team-celebrate-with-Debbie-3ec4i3vis37ztaizl0fs3k.jpeg");
 }
-.tag
-{
-background: #0cf;
-margin-top: -1.6rem;
-z-index: 100;
-}
-.tag.positioned
-{
-position: relative;
-}
+  

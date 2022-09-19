@@ -1,20 +1,23 @@
 .nav {
-    height: 100px;
+    height: 80px;
     padding: 10px;
     background: #0047AB;
     color: #fff;
+    columns: 2;
+ }
+ .image{
     display: flex;
-    align-items: center;
     justify-content: flex-start;
-  }
+    background: #0047AB;
+ }
   
-  .nav ul {
+.links ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
+   justify-content: flex-end;
     list-style: none;
+  
   }
   
-  .nav ul li a {
-    margin: 5px 15px;
+  .links ul li a {
+    margin: 5px 30px;
   }

@@ -1,4 +1,5 @@
 import Nav from './Nav'
+import Nav2 from './Nav2'
 import Header from './Header'
 import  Footer  from './Footer'
 import Links from './Links'
@@ -12,6 +13,7 @@ const Layout = ({children}) => {
   return (
     <>
    <Nav />
+   
    <Header></Header>
     <div className={styles.container}>
         
@@ -19,11 +21,13 @@ const Layout = ({children}) => {
         <main className={styles.main}>
           
          <Content></Content>
+       
         {children}
-      
+        
       
         </main>
         <Graduands></Graduands>
+     
         <Programs></Programs>
         <Testmonials></Testmonials>
         <Links></Links>

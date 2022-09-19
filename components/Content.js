@@ -3,20 +3,28 @@ import Image from 'next/image'
 import contentStyles from '../styles/Content.module.css'
 import about from '../public/university.jpg'
 
+
+
 const Content = () => {
   return (
     <>
     <div className={contentStyles.row}>
         <div className={contentStyles.column}>
 
-        <div>
+        <div className={contentStyles.img}>
+         
+              
+         
                 <Image src={about} 
                     alt="GFG logo imported from public directory" />
             </div>
         </div>
         <div className={contentStyles.column}>
-        <h4>Welcome to Zetech</h4>
+            <div className={contentStyles.headings}>
+            <h4>Welcome to Zetech</h4>
         <h2>23 Years Experience</h2>
+            </div>
+        
         <p>
         Zetech traces its roots back to 1999 when it was founded by Eng.
          Ken Mbiuki as a Centre providing ICT training. Established from the direct incorporation

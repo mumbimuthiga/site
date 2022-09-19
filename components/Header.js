@@ -14,7 +14,9 @@ const Header = () => {
   return (
     <div className={headerStyles.header}>
        
-       <p classname={headerStyles.tag}>`Here`</p>   
+      
+      
+     
         
     </div>
   )

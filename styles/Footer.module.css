@@ -1,11 +1,17 @@
-.main {
-    height: 50px;
+.footer {
+    height: 100px;
     padding: 10px;
-    background: #0047AB;
+    background:#0047AB;
     color: #fff;
     font-family: 'Times New Roman', Times, serif;
+    width: 100%;
 
   }
+ .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
   
   .main p {
     display: flex;
